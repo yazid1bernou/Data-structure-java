@@ -7,16 +7,15 @@ public class Linear_search {
 	  
 	  int val = 5 ;
 	    
-	  Linear_search e = new Linear_search() ;
 	
 	  
-	  System.out.println( e.searchLinear(arr, val)); 
+	  System.out.println( searchLinear(arr, val)); 
 	  
 	
 	 }
 	 
 	 
-    public  int searchLinear (int array[] , int val ) { 
+    public static int searchLinear (int array[] , int val ) {  
     	 
      for (int i = 0 ;  i < array.length ; i++) {
     	 if(val == array[i])
